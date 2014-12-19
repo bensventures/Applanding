@@ -1,0 +1,51 @@
+$lapse-blue: #2b74b8;
+$lapse-white: #e1e9ef;
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: $lapse-white;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 868px;
+}
+
+header {
+	padding: 1em;
+	position: fixed;
+	top: 0;
+}
+
+.hero {
+	background: $lapse-blue;
+	height: 50%;
+	padding: 1em;
+	color: $lapse-white;
+}
+
+	.image-right {
+
+		.hero-image {
+			float: right;
+			margin-left: 1rem;
+		}
+	}
+
+	.hero-title {
+		font-size: 6rem;
+		padding-top: 2rem;
+		font-weight: 300;
+	}
+
+	.tag-line {
+		font-size: 2rem;
+		display: block;
+	}
+
+	.hero-image {
+
+	}
