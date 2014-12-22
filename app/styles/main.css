@@ -172,17 +172,42 @@ header {
 
 .image-right .hero-image {
   float: right;
-  margin-left: 1rem; }
+  max-width: 33%; }
+  .image-right .hero-image img {
+    max-width: 100%; }
+.image-right .hero-text {
+  float: left;
+  max-width: 66%; }
+@media (max-width: 600px) {
+  .image-right .hero-image {
+    float: none;
+    max-width: 100%;
+    text-align: center; }
+  .image-right .hero-text {
+    max-width: 100%;
+    float: none; } }
 
 .hero-title {
   font-size: 6rem;
   padding-top: 2rem;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-bottom: 1rem; }
 
 .tag-line {
   font-size: 2rem;
-  display: block; }
+  display: block;
+  margin-left: 0.5rem; }
 
+footer {
+  background: black;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 3rem;
+  color: white; }
+
+.inline-footer {
+  list-style: none; }
 
 html, body {
   width: 100%;
